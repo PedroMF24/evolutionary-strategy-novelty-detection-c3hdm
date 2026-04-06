@@ -1,0 +1,62 @@
+MH10:
+  fixed: 125.0
+MH20:
+  low: 126.0
+  up: 1000.0
+mC1:
+  low: 126.0
+  up: 1000.0
+mC2:
+  low: 126.0
+  up: 1000.0
+tanb1:
+  low: "0.3"
+  up: 10.0
+tanb2:
+  low: "0.3"
+  up: 10.0
+theta:
+  low: "-np.pi"
+  up: "np.pi"
+phi:
+  low: "-np.pi"
+  up: "np.pi"
+alp12:
+  low: "-np.pi"
+  up: "np.pi"
+alp13:
+  low: "-np.pi"
+  up: "np.pi"
+alp14:
+  low: "-np.pi"
+  up: "np.pi"
+alp15:
+  low: "-np.pi"
+  up: "np.pi"
+alp23:
+  low: "-np.pi"
+  up: "np.pi"
+alp24:
+  low: "-np.pi"
+  up: "np.pi"
+alp25:
+  low: "-np.pi"
+  up: "np.pi"
+alp34:
+  low: "-np.pi"
+  up: "np.pi"
+alp35:
+  low: "-np.pi"
+  up: "np.pi"
+alp45:
+  low: "-np.pi"
+  up: "np.pi"
+m12sqR:
+  exp_low: -1.0
+  exp_up: 7.0
+m13sqR:
+  exp_low: -1.0
+  exp_up: 7.0
+m23sqR:
+  exp_low: -1.0
+  exp_up: 7.0

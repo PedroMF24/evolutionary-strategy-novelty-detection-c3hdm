@@ -1,0 +1,176 @@
+kappa_W_centre: 1.04
+error_W_upper: 0.10
+error_W_lower: 0.10
+
+kappa_Z_centre: 1.07
+error_Z_upper: 0.11
+error_Z_lower: 0.10
+
+kappa_b_centre: 1.00
+error_b_upper: 0.24
+error_b_lower: 0.22
+
+kappa_t_centre: 1.03
+error_t_upper: 0.12
+error_t_lower: 0.11
+
+kappa_tau_centre: 1.04
+error_tau_upper: 0.17
+error_tau_lower: 0.16
+
+kappa_i_sigma: 3
+
+U_centre: 0.03
+U_lower: 0.1
+U_upper: 0.1
+
+a1: -0.34215919
+a2: 0.77604111
+a3: -0.52618813
+a4: -0.03202802
+a5: 0.05277964
+a6: 0.00136192
+
+mu_ij(1,1)_centre: 1.0377
+mu_ij(1,1)_upper: 0.103
+mu_ij(1,1)_lower: 0.09916
+
+mu_ij(1,2)_centre: 0.95157
+mu_ij(1,2)_upper: 0.10984
+mu_ij(1,2)_lower: 0.1047
+
+mu_ij(1,3)_centre: 1.1402
+mu_ij(1,3)_upper: 0.13022
+mu_ij(1,3)_lower: 0.12581
+
+mu_ij(1,4)_centre: 0.89788
+mu_ij(1,4)_upper: 0.29101
+mu_ij(1,4)_lower: 0.25638
+
+mu_ij(1,5)_centre: 0.98031
+mu_ij(1,5)_upper: 0.37558
+mu_ij(1,5)_lower: 0.36282
+
+mu_ij(1,6)_centre: 0.0
+mu_ij(1,6)_upper: NUMERICAL_INF
+mu_ij(1,6)_lower: NUMERICAL_INF
+
+mu_ij(2,1)_centre: 1.3576
+mu_ij(2,1)_upper: 0.29687
+mu_ij(2,1)_lower: 0.26491
+
+mu_ij(2,2)_centre: 1.3313
+mu_ij(2,2)_upper: 0.51944
+mu_ij(2,2)_lower: 0.43235
+
+mu_ij(2,3)_centre: 1.1284
+mu_ij(2,3)_upper: 0.19453
+mu_ij(2,3)_lower: 0.1835
+
+mu_ij(2,4)_centre: 0.99778
+mu_ij(2,4)_upper: 0.20661
+mu_ij(2,4)_lower: 0.1826
+
+mu_ij(2,5)_centre: 0
+mu_ij(2,5)_upper: NUMERICAL_INF
+mu_ij(2,5)_lower: NUMERICAL_INF
+
+mu_ij(2,6)_centre: 0.0
+mu_ij(2,6)_upper: NUMERICAL_INF
+mu_ij(2,6)_lower: NUMERICAL_INF
+
+mu_ij(3,1)_centre: 1.528
+mu_ij(3,1)_upper: 0.5604
+mu_ij(3,1)_lower: 0.50742
+
+mu_ij(3,2)_centre: 1.4999
+mu_ij(3,2)_upper: 1.1664
+mu_ij(3,2)_lower: 0.93885
+
+mu_ij(3,3)_centre: 2.2639
+mu_ij(3,3)_upper: 1.2116
+mu_ij(3,3)_lower: 1.0218
+
+mu_ij(3,4)_centre: 1.0037
+mu_ij(3,4)_upper: 0.62433
+mu_ij(3,4)_lower: 0.59479
+
+mu_ij(3,5)_centre: 1.0008
+mu_ij(3,5)_upper: 0.2459
+mu_ij(3,5)_lower: 0.2256
+
+mu_ij(3,6)_centre: 0.0
+mu_ij(3,6)_upper: NUMERICAL_INF
+mu_ij(3,6)_lower: NUMERICAL_INF
+
+mu_ij(4,1)_centre: 0.90103
+mu_ij(4,1)_upper: 0.32752
+mu_ij(4,1)_lower: 0.30859
+
+mu_ij(4,2)_centre: 1.6832
+mu_ij(4,2)_upper: 1.6821
+mu_ij(4,2)_lower: 1.1065
+
+mu_ij(4,3)_centre: 1.639
+mu_ij(4,3)_upper: 0.64953
+mu_ij(4,3)_lower: 0.61363
+
+mu_ij(4,4)_centre: 1.3731
+mu_ij(4,4)_upper: 0.85932
+mu_ij(4,4)_lower: 0.75279
+
+mu_ij(4,5)_centre: 0.34799
+mu_ij(4,5)_upper: 0.34131
+mu_ij(4,5)_lower: 0.32988
+
+mu_ij(4,6)_centre: 0.0
+mu_ij(4,6)_upper: NUMERICAL_INF
+mu_ij(4,6)_lower: NUMERICAL_INF
+
+mu_i_sigma: 2
+
+BRbsgUB: 3.77e-4 # / 0.975
+BRbsgLb: 2.87e-4 # / 1.025
+BRbsg_epsilon: 0.025
+
+mass_diffUB: 875
+mass_diffLb: 1
+
+chisq_ub: 11.83
+
+ghbb_Lb: -1.5
+ghbb_Ub: 0.3
+
+ghbb_p_Lb: -1.5
+ghbb_p_Ub: 1.5
+
+ghee_Lb: -1.5
+ghee_Ub: -0.65
+
+ghee_p_Lb: -1.5
+ghee_p_Ub: 1.5
+
+ghbbcircle_Lb: 0.0
+ghbbcircle_Ub: 1.5
+
+EDMUB: 4.1e-30 # / 0.975
+EDM_epsilon: 0
+
+b1_a1_centre: 1
+b1_a1_upper: 0.5
+b1_a1_lower: 0.5
+b2_a2_centre: 1
+b2_a2_upper: 0.5
+b2_a2_lower: 0.5
+mC1_MH20_centre: 1
+mC1_MH20_upper: 0.5
+mC1_MH20_lower: 0.5
+mA1_MH20_centre: 1
+mA1_MH20_upper: 0.5
+mA1_MH20_lower: 0.5
+mC2_MH30_centre: 1
+mC2_MH30_upper: 0.5
+mC2_MH30_lower: 0.5
+mA2_MH30_centre: 1
+mA2_MH30_upper: 0.5
+mA2_MH30_lower: 0.5

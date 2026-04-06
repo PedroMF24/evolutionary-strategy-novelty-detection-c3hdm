@@ -1,0 +1,51 @@
+experiment_name: dev
+sampler: "cmaes2"
+n_cpus: 24
+n_scans: 12
+collect_all_points: False
+collect_all_good_points: True
+collect_all_logbooks: True
+delete_all_tmp_files: False
+n_generations: 10
+early_stop_n_valid_points: 10000
+early_stop_n_restarts: 10
+restart: False
+verbose: True
+HT: False
+Do_Chisq: False
+penalty:
+  use_seeds: True
+  parameter:
+    model: Null # "hbos" # Set none to ignore parameter density penalty
+    warmup: 0
+    cooldown: True
+    focus: []
+  observable:
+    model: "hbos" #  Set none to ignore observable density penalty
+    warmup: 0
+    cooldown: True
+    focus: ["ghjee_s(1)","ghjbb_s(1)"]
+rs:
+  n_population: 100
+cmaes:
+  sigma: 0.01
+  centroid_seed: Null
+  no_good_patience_restart: 7500
+  ##############################################
+  # Only being used by CMAES 1
+  ##############################################
+  stagnation_time_lapse_multiplier: 0.2
+  stagnation_offset: 100
+  stagnation_recent: 20
+  stagnation_dim_multiplier: 30
+  ##############################################
+  # New for CMAES 2 better restarts
+  ##############################################
+  best_loss_patience: 200
+  best_n_valid_constraints_counter_patience: 100
+
+constraints_to_ignore:
+  [
+  ]
+parameter_space:
+  tanbeta: False
