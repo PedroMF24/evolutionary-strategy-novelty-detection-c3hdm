@@ -1,6 +1,6 @@
 # Combining Evolutionary Strategies and Novelty Detection to go Beyond the Alignment Limit of the $Z_2\times Z_2$ C3HDM
 
-Repository of the code implementing an Evolutionary Strategy enhanced with Novelty Detection used in the paper [*Unearthing large pseudoscalar Yukawa couplings with Machine Learning*](https://arxiv.org/abs/2505.10625). The methodology builds upon the original work presented in [*Combining Evolutionary Strategies and Novelty Detection to go Beyond the Alignment Limit of the $Z_3$ 3HDM*](https://arxiv.org/abs/2402.07661)
+Repository of the code implementing an Evolutionary Strategy enhanced with Novelty Detection used in the paper [*Unearthing large pseudoscalar Yukawa couplings with Machine Learning*](https://arxiv.org/abs/2505.10625). The methodology builds upon the original work presented in [*Combining Evolutionary Strategies and Novelty Detection to go Beyond the Alignment Limit of the Z<sub>3</sub> 3HDM*](https://arxiv.org/abs/2402.07661)
 
 > Note: This repository does not include the code that computes the $Z_2\times Z_2$ C3HDM observables, but the main Evolutionary Strategy with Novelty Detection loop presented herein can be adapted to other problems.
 
